@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表格</title>
+</head>
+<body>
+    <table>
+        <!--
+            align='left.right.center'
+            border='1'
+            cellspacing.cellpadding
+        -->
+        <tr>
+            <!--th表頭-->
+            <th>名字</th><th>性別</th><th>年紀</th>
+        </tr>
+        <tr>
+            <!--td-->
+            <td>LBJ</td><td>Male</td><td>37</td>
+        </tr>
+    </table>
+    <table width='500' height='250' border='1' cellspacing='0'>
+            <!--
+            合併表格
+            1.跨行rowspan="2" 最上面
+            2.跨列colspan="2" 最左邊
+            -->
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="2"></td> <!--要刪掉下面多餘的-->
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+</body>
+</html>
